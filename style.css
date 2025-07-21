@@ -148,12 +148,12 @@ h1 {
     }
 
     .home {
-    width: 80%;
-    /* white-space: wrap; */
-    margin: auto;
-    color: #ffffff;
-    margin-top: 8rem;
-}
+        width: 80%;
+        /* white-space: wrap; */
+        margin: auto;
+        color: #ffffff;
+        margin-top: 8rem;
+    }
 
 
 }
@@ -171,19 +171,20 @@ h1 {
 
 
 @media screen and (max-width:720px) {
-  .about-us {
-    flex-direction: column;
+    .about-us {
+        flex-direction: column;
 
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 5rem 0;
-}  
-.about-text {
-    width: 50%;
-    margin-bottom: 1rem;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5rem 0;
+    }
 
-}
-    
+    .about-text {
+        width: 50%;
+        margin-bottom: 1rem;
+
+    }
+
 }
 
 .content {
@@ -264,7 +265,7 @@ footer {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
 
 }
@@ -277,10 +278,47 @@ footer {
     border-radius: 6px;
 }
 
-.child-card:hover {
-    box-shadow: 3px 4px 5px #000000;
+@media screen and (max-width:720px) {
+
+    .card-parent {
+        background-color: rgb(208, 209, 209);
+        padding: 3rem;
+        flex-direction: column;
+        text-align: center;
+        min-height: 100vh;
+        align-items: center;
+
+    }
+
+    .child-card {
+        width: 18rem;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 6px;
+    }
+
+
+
+
+    .card-2 {
+        border: solid rgb(125, 203, 255);
+
+    }
+
+    .card-2:hover {
+        box-shadow: 3px 4px 5px rgb(125, 203, 255);
+    }
+
+    .card-3 {
+        border: solid rgb(90, 254, 224);
+    }
+
+    .card-3:hover {
+        box-shadow: 3px 4px 5px rgb(90, 254, 224);
+    }
 
 }
+
 
 .card-2 {
     border: solid rgb(125, 203, 255);
