@@ -131,7 +131,7 @@ h1 {
 }
 
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:720px) {
     h1 {
         font-size: 2.5rem;
 
@@ -148,8 +148,9 @@ h1 {
     }
 
     .home {
-    width: 100%;
+    width: 80%;
     /* white-space: wrap; */
+    margin: auto;
     color: #ffffff;
     margin-top: 8rem;
 }
